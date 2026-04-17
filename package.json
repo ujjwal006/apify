@@ -1,0 +1,23 @@
+{
+  "name": "video-editor-lead-engine",
+  "version": "1.0.0",
+  "description": "Apify Actor — Video Editor Lead Generation Engine using Crawlee + PlaywrightCrawler",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "APIFY_IS_AT_HOME=0 node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.2.2",
+    "crawlee": "^3.9.0",
+    "playwright": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "apify": {
+    "type": "actor",
+    "inputSchema": "./input_schema.json"
+  }
+}
